@@ -2,11 +2,11 @@
 
 # Site Settings
 title: Trupesh Patel's BIO-DATA
-url: 
+url: trupeshkumarpatel.github.io
 
 #change it according to your repository name
 # disabling since we are using a custom domain
-#baseurl: '/online-cv'
+baseurl: '/TRPatel-biodata'
 
 description: This is Trupesh Patel's personal Bio-Data.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
