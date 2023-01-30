@@ -14,7 +14,7 @@ sidebar:
     weight: 190Lbs / 85Kg
     height: 5'5''
     tagline: Full Stack Developer
-    avatar: IMG_8322.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: IMG_8322.webp  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: pateltrupesh27@gmail.com
