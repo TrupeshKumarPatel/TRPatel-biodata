@@ -1,18 +1,147 @@
-{% assign career-profile = site.data.data.career-profile %}
-{% if career-profile %}
-<section class="section summary-section">
+<section class="section" style="margin-left: -60px; margin-bottom: 40px">
+	<span
+		style="text-align: right;font-size: 42px;font-weight: 300; background: #000; color: #fff;display: block;letter-spacing: 5px;padding: 20px;width: 105%;">
+		{{ sidebar.name }}
+	</span>
+</section>
+<!-- <ul class="list-unstyled contact-list">
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-user" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000; margin-bottom: 5px">
+			{{ sidebar.fullname }}
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-cake-candles" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;margin-bottom: 15px;">
+			{{ sidebar.dob }} ({{ diffDays | round: 0 }} Years)
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-clock" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;">
+			{{ sidebar.time }}
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-weight" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;">
+			{{ sidebar.weight }}
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-text-height" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;">
+			{{ sidebar.height }}
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-droplet" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;">
+			{{ sidebar.bloodgroup }}
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-graduation-cap" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;">
+			{{ sidebar.degree }} in {{ sidebar.fieldofstudy }} (Pursuing)
+		</span>
+	</li>
+	<li style="margin-bottom: 10px;">
+		<i class="fas fa-briefcase" , style="color: #000;"></i>
+		<span style="padding: 5px; color: #000;">
+			{{ sidebar.job }}
+		</span>
+	</li>
+</ul> -->
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ career-profile.title }}
-  </h2>
+<section>
+	<table>
+		<tr>
+			<th>Full Name</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.fullname }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Date of Birth</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.dob }} ({{ diffDays | round: 0 }}
+					Years)</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Place of Birth</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.placeob }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Time of Birth</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.time }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Rashi Sign</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.hzodiac }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Zodiac Sign</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.ezodiac }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Time of Birth</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.time }}</span>
+			</td>
+		</tr>
 
-  <div class="summary">
-    {{ career-profile.summary | markdownify }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
-{% endif %}
+		<tr>
+			<th>Weight</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.weight }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Height</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.height }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Blood Type</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.bloodgroup }}</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Education</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.degree }} (Pursuing)</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Occupation</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.job }}</span>
+			</td>
+		</tr>
+	</table>
+</section>

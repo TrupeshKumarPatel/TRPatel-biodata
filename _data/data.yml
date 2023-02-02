@@ -11,15 +11,23 @@ sidebar:
     fullname: Trupeshkumar Rajendrabhai Patel
     dob:  July-27-1993
     time: 00:00:00 AM-PM
+    placeob: Jalsan Kheda, Gujarat
+    ezodiac: Leo
+    hzodiac: Tula / Libra
     weight: 190Lbs / 85Kg
     height: 5'5''
-    tagline: Full Stack Developer
+    bloodgroup: O+
+    degree: Doctor of Philosophy
+    fieldofstudy: Computer Science
+    job: Full-time Student / Graduate Research Assistant
+    # tagline: Full Stack Developer
     avatar: IMG_8322.webp  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: pateltrupesh27@gmail.com
     phone: +1 205 835 4192
     timezone: America/Chicago Timezone
+    location: Tuscaloosa, Alabama, USA
     citizenship: India
     website: trupeshkumarpatel.github.io #do not add http://
     linkedin: trupeshkumarpatel
@@ -49,14 +57,10 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
         - item: Cooking
-          link:
+        # - item: Volleyball
+        - item: Watching TV / Netflix
+        - item: Adventure Trips
 
 career-profile:
     title: Career Profile
@@ -70,68 +74,46 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-experiences:
-    title: Experiences
+      - degree: M.Sc. in Computer and Information Science
+        university: University of Alabama at Birmingham, Alabama, USA
+        time: 2016 - 2018
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+      - degree: B.Tech. in Computer Science & Engineering 
+        university: Pacific University, Rajasthan, India
+        time: 2011 - 2015
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+family:
+    title: Family Details
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - name: Rajendrabhai Jashbhai Patel
+        relation: Father
+        job: Businessman
+        status: Married
+        location: Vadodara, Gujarat, India
+      - name: Sheetalben Rajendrabhai Patel
+        relation: Mother
+        job: Homemaker
+        status: Married
+        location: Vadodara, Gujarat, India
+      - name: Krishna Rajendrabhai Patel
+        relation: Sister
+        job: Bachelor of Physiotherapy
+        status: Engaged
+        location: Texas, USA
 projects:
     title: Projects
     intro: >

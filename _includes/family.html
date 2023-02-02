@@ -1,0 +1,41 @@
+{% assign family = site.data.data.family %}
+{% if family %}
+<section class="section experiences-section">
+	<span
+		style=" text-transform: uppercase; font-size: 20px; font-weight: 500; background: #000; color: #fff; display: block;	letter-spacing: 5px; margin-left: -60px; margin-top: 20px; padding-right: 25px; margin-bottom: 20px; width: 117%; text-align: right;">
+		{{ family.title }}
+	</span>
+
+	<section>
+		<table>
+			{% for family in family.info %}
+			<tr>
+				<th>{{ family.relation }}</th>
+				<td>&ensp;:&ensp;</td>
+				<td>
+					<span style="color: #000;">{{ family.name }}&ensp;</span>
+				</td>
+				<td>
+					<span style="color: #a8a8a8;font-size: 15px;">({{ family.status }})</span>
+				</td>
+			</tr>
+			<tr>
+				<th style="width: 170px;">{{ family.relation }}'s Occupation</th>
+				<td>&ensp;:&ensp;</td>
+				<td>
+					<span style="color: #545e6c;">{{ family.job }}</span>
+				</td>
+			</tr>
+			<tr>
+				<th style="width: 170px;">{{ family.relation }}'s Location</th>
+				<td>&ensp;:&ensp;</td>
+				<td>
+					<span style="color: #545e6c;">{{ family.location }}</span>
+				</td>
+			</tr>
+		<!-- {{ family.name }}{{ family.job }} -->
+			{% endfor %}
+		</table>
+	</section>
+</section><!--//section-->
+{% endif %}
