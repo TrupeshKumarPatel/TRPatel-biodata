@@ -34,7 +34,7 @@ p {
 }
 
 th {
-  width: 115px;
+  width: 150px;
 }
 
 tr {
@@ -182,7 +182,7 @@ td {
   grid-column: span 6;
   // background: #fff;
   background-image:url("/TRPatel-biodata/assets/images/bg.jpg");
-  background-size: cover;
+  background-size: 750px auto;
   padding: 40px;
   .section-title {
     text-transform: uppercase;

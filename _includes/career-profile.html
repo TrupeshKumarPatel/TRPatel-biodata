@@ -1,59 +1,9 @@
-<section class="section" style="margin-left: -60px; margin-bottom: 40px">
+<section class="section" style="margin-left: -40px; margin-bottom: 40px">
 	<span
 		style="text-align: right;font-size: 42px;font-weight: 300; background: #000; color: #fff;display: block;letter-spacing: 5px;padding: 20px;width: 105%;">
 		{{ sidebar.name }}
 	</span>
 </section>
-<!-- <ul class="list-unstyled contact-list">
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-user" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000; margin-bottom: 5px">
-			{{ sidebar.fullname }}
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-cake-candles" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;margin-bottom: 15px;">
-			{{ sidebar.dob }} ({{ diffDays | round: 0 }} Years)
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-clock" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;">
-			{{ sidebar.time }}
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-weight" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;">
-			{{ sidebar.weight }}
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-text-height" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;">
-			{{ sidebar.height }}
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-droplet" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;">
-			{{ sidebar.bloodgroup }}
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-graduation-cap" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;">
-			{{ sidebar.degree }} in {{ sidebar.fieldofstudy }} (Pursuing)
-		</span>
-	</li>
-	<li style="margin-bottom: 10px;">
-		<i class="fas fa-briefcase" , style="color: #000;"></i>
-		<span style="padding: 5px; color: #000;">
-			{{ sidebar.job }}
-		</span>
-	</li>
-</ul> -->
 
 <section>
 	<table>
@@ -76,7 +26,9 @@
 			<th>Place of Birth</th>
 			<td>&emsp;:&ensp;</td>
 			<td>
-				<span style="color: #000; margin-bottom: 5px">{{ sidebar.placeob }}</span>
+				<span style="color: #000; margin-bottom: 5px">
+					<a href="https://goo.gl/maps/Z6UG4NmUK1fQT9Fz6", target="_blank" style="color: #000;">{{ sidebar.placeob }}</a>
+				</span>
 			</td>
 		</tr>
 		<tr>
@@ -87,27 +39,44 @@
 			</td>
 		</tr>
 		<tr>
-			<th>Rashi Sign</th>
+			<th>Rashi Sign (Moon)</th>
 			<td>&emsp;:&ensp;</td>
 			<td>
 				<span style="color: #000; margin-bottom: 5px">{{ sidebar.hzodiac }}</span>
 			</td>
 		</tr>
 		<tr>
-			<th>Zodiac Sign</th>
+			<th>Zodiac Sign (Sun)</th>
 			<td>&emsp;:&ensp;</td>
 			<td>
 				<span style="color: #000; margin-bottom: 5px">{{ sidebar.ezodiac }}</span>
 			</td>
-		</tr>
+		</tr> 
 		<tr>
-			<th>Time of Birth</th>
+			<th>Paternal Place</th>
 			<td>&emsp;:&ensp;</td>
 			<td>
-				<span style="color: #000; margin-bottom: 5px">{{ sidebar.time }}</span>
+				<span style="color: #000; margin-bottom: 5px">
+					<a href="https://goo.gl/maps/jvYr2EYfFKyPhRFV7", target="_blank" style="color: #000;">{{ sidebar.paternalplace }}</a>
+				</span>
 			</td>
 		</tr>
-
+		<tr>
+			<th>Maternal Place</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">
+					<a href="https://goo.gl/maps/5auXayYAhtzDKMSF9", target="_blank" style="color: #000;">{{ sidebar.maternalplace }}</a>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<th>Gender</th>
+			<td>&emsp;:&ensp;</td>
+			<td>
+				<span style="color: #000; margin-bottom: 5px">{{ sidebar.gender }}</span>
+			</td>
+		</tr>
 		<tr>
 			<th>Weight</th>
 			<td>&emsp;:&ensp;</td>

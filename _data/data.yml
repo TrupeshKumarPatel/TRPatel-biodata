@@ -10,10 +10,14 @@ sidebar:
     name: Trupesh Patel
     fullname: Trupeshkumar Rajendrabhai Patel
     dob:  July-27-1993
-    time: 00:00:00 AM-PM
-    placeob: Jalsan Kheda, Gujarat
+    time: 03:30:00 AM
+    placeob: Petlad, Gujarat, India
+    paternalplace: Sayama, Gujarat, India
+    maternalplace: Jalsan, Gujarat, India
+    gender: Male
     ezodiac: Leo
-    hzodiac: Tula / Libra
+    hzodiac: Tula
+    kundli: kundli.png
     weight: 190Lbs / 85Kg
     height: 5'5''
     bloodgroup: O+
@@ -58,8 +62,10 @@ sidebar:
       title: Interests
       info:
         - item: Cooking
-        # - item: Volleyball
-        - item: Watching TV / Netflix
+        - item: Sports
+        - item: Swimming
+        - item: Go-Kart Racing
+        - item: Bowling
         - item: Adventure Trips
 
 career-profile:
@@ -104,11 +110,13 @@ family:
         job: Businessman
         status: Married
         location: Vadodara, Gujarat, India
+        grandfather: Late Jashbhai Fulabhai Patel
       - name: Sheetalben Rajendrabhai Patel
         relation: Mother
         job: Homemaker
         status: Married
         location: Vadodara, Gujarat, India
+        grandfather: Bhupendrabhai Shankarbhai Patel
       - name: Krishna Rajendrabhai Patel
         relation: Sister
         job: Bachelor of Physiotherapy
