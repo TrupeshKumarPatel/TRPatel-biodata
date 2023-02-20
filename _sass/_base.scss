@@ -1,4 +1,6 @@
 /* ======= Base ======= */
+@use "sass:math";
+
 body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
@@ -295,5 +297,72 @@ td {
 
   .fa-heart {
     color: $heart;
+  }
+}
+
+
+/**
+ * Images
+ */
+ img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+/**
+* Figures
+*/
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 16px * 0.875;
+}
+
+/**
+ * Clearfix
+ */
+ %clearfix {
+
+  &:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+}
+
+
+// Width of the content area
+$content-width:    800px;
+$spacing-unit:     30px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+      @content;
+  }
+}
+
+.main-wrapper-2 {
+  grid-column: span 10;
+  // background: #fff;
+  background-image:url("/TRPatel-biodata/assets/images/bg.jpg");
+  // background-size: 750px auto;
+  // padding: 40px;
+  // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  // margin-right: auto;
+  // margin-left: auto;
+  // padding-right: $spacing-unit;
+  // padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+      padding-right: math.div($spacing-unit, 2);
+      padding-left: math.div($spacing-unit, 2);
   }
 }
