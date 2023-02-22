@@ -1,5 +1,5 @@
-<div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="image-gallery">
-  <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="gallery-sizer"></div>
+<div id="image-gallery" class="image-gallery">
+  <div id="gallery-sizer" class="gallery-sizer"></div>
   {% for picture in include.gallery.pictures %}
   <div class="image-wrapper">
     <a href="{{ site.baseurl }}/assets/images/{{ include.gallery.picture_path }}/{{ picture.original }}"
@@ -11,25 +11,25 @@
   {% endfor %}
 </div>
 
-<script>
+<script type="text/javascript">
 $(document).ready(function() {
-  var $gallery{% if include.id_number %}{{ include.id_number }}{% endif %} = $("#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}").lightGallery({
+  var $gallery = $("#image-gallery").lightGallery({
     thumbnail: false,
     selector: '.image'
   });
 });
 
 // init isotope
-var $grid{% if include.id_number %}{{ include.id_number }}{% endif %} = $('#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}').isotope({
+var $grid = $('#image-gallery').isotope({
   percentPosition: true,
-  columnWidth: '#gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}',
+  columnWidth: '#gallery-sizer',
   itemSelector: '.image-wrapper',
   layoutMode: "masonry"
 });
 
 // layout Isotope after each image loads
-$grid{% if include.id_number %}{{ include.id_number }}{% endif %}.imagesLoaded().progress( function() {
-  $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.masonry();
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
 });
 
 </script>
