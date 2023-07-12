@@ -25,7 +25,7 @@ sidebar:
     fieldofstudy: Computer Science
     job: Full-time Student / Graduate Research Assistant
     # tagline: Full Stack Developer
-    avatar: IMG_8322.webp  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: IMG_7152_2.webp  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: pateltrupesh27@gmail.com
@@ -80,6 +80,9 @@ career-profile:
 education:
     title: Education
     info:
+      - degree: Ph.D. in Computer Science
+        university: University of Alabama, Tuscaloosa, USA
+        time: 2019 - Present
       - degree: M.Sc. in Computer and Information Science
         university: University of Alabama at Birmingham, Alabama, USA
         time: 2016 - 2018
@@ -120,8 +123,8 @@ family:
       - name: Krishna Rajendrabhai Patel
         relation: Sister
         job: Bachelor of Physiotherapy
-        status: Engaged
-        location: Texas, USA
+        status: Married
+        location: New Jersey, USA
 projects:
     title: Projects
     intro: >

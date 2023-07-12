@@ -10,6 +10,24 @@ preview:
   title: Mageleinstraat
   caption: Our House Ghent by THEM Sculptures
 pictures:
+- filename: IMG_4831
+  original: IMG_4831.webp
+  # sizes:
+  # - Lichtfestival-0202-2121x1414.jpg
+  # - Lichtfestival-0202-2999x1999.jpg
+  # - Lichtfestival-0202-4242x2828.jpg
+  thumbnail: IMG_4831.webp
+  title: 
+  caption: 
+- filename: IMG_7153
+  original: IMG_7153.webp
+  # sizes:
+  # - Lichtfestival-0132-2121x1414.jpg
+  # - Lichtfestival-0132-2999x1999.jpg
+  # - Lichtfestival-0132-4242x2828.jpg
+  thumbnail: IMG_7153.webp
+  title: 
+  caption: 
 - filename: IMG_4473
   original: IMG_4473.webp
   # sizes:
@@ -18,7 +36,7 @@ pictures:
   # - Lichtfestival-0132-4242x2828.jpg
   thumbnail: IMG_4473.webp
   title: 
-  caption: 
+  caption:
 - filename: IMG_1623
   original: IMG_1623.webp
   # sizes:
@@ -28,24 +46,24 @@ pictures:
   thumbnail: IMG_1623.webp
   title: 
   caption: 
-- filename: IMG_8322
-  original: IMG_8322.webp
-  # sizes:
-  # - Lichtfestival-0012-1414x2121.jpg
-  # - Lichtfestival-0012-1999x2999.jpg
-  # - Lichtfestival-0012-2828x4242.jpg
-  thumbnail: IMG_8322.webp
-  title: 
-  caption: 
-- filename: IMG_0456
-  original: IMG_0456.webp
-  # sizes:
-  # - Lichtfestival-0135-2121x1414.jpg
-  # - Lichtfestival-0135-2999x1999.jpg
-  # - Lichtfestival-0135-4242x2828.jpg
-  thumbnail: IMG_0456.webp
-  title: 
-  caption: 
+# - filename: IMG_8322
+#   original: IMG_8322.webp
+#   # sizes:
+#   # - Lichtfestival-0012-1414x2121.jpg
+#   # - Lichtfestival-0012-1999x2999.jpg
+#   # - Lichtfestival-0012-2828x4242.jpg
+#   thumbnail: IMG_8322.webp
+#   title: 
+#   caption: 
+# - filename: IMG_0456
+#   original: IMG_0456.webp
+#   # sizes:
+#   # - Lichtfestival-0135-2121x1414.jpg
+#   # - Lichtfestival-0135-2999x1999.jpg
+#   # - Lichtfestival-0135-4242x2828.jpg
+#   thumbnail: IMG_0456.webp
+#   title: 
+#   caption: 
 - filename: IMG_1526
   original: IMG_1526.webp
   # sizes:
@@ -55,7 +73,6 @@ pictures:
   thumbnail: IMG_1526.webp
   title: 
   caption: 
-
 # - filename: Lichtfestival-0195
 #   original: Lichtfestival-0195-6000x4000.jpg
 #   sizes:

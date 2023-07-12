@@ -37,6 +37,7 @@ p {
 
 th {
   width: 150px;
+  color: #23395d;
 }
 
 tr {
@@ -61,15 +62,16 @@ td {
   grid-column: span 4;
   overflow: hidden;
   // order: 2;
-  background: linear-gradient(0.5turn, black, black, black, white) border-box;
-  color: #fff;
+  // background: linear-gradient(0.5turn, black, black, black, white) border-box;
+  background: #fff;
+  color: #23395d;
   a {
-    color: #fff;
+    color: #000;
   }
   .profile-container {
     // padding: 10px;
     //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    background: #fff;
     text-align: center;
     // color: #fff;
   }
@@ -93,7 +95,7 @@ td {
   .avatar {
     //used for profile image
     max-width: 120%;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     margin-left: -25px;
     border: 0px solid #fff;
     // border-radius: 100%;
@@ -102,6 +104,10 @@ td {
     border-style: solid;
     border-color: rgb(255, 255, 255);
     border-image: initial;
+    border-bottom-left-radius: 65%;
+    border-bottom-right-radius: 35%;
+    border-top-right-radius: 65%;
+    border-top-left-radius: 35%;
   }
   .contact-list {
     .fas,
@@ -182,8 +188,8 @@ td {
 
 .main-wrapper {
   grid-column: span 6;
-  // background: #fff;
-  background-image:url("/TRPatel-biodata/assets/images/bg.jpg");
+  background: #fff;
+  // background-image:url("/TRPatel-biodata/assets/images/bg.jpg");
   background-size: 750px auto;
   padding: 40px;
   .section-title {
@@ -195,9 +201,9 @@ td {
     margin-top: 0;
     margin-bottom: 20px;
   }
-  .section {
-    margin-bottom: 60px;
-  }
+  // .section {
+  //   margin-bottom: 60px;
+  // }
 
   .experiences-section,
   .educations-section {
